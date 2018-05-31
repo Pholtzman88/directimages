@@ -1,0 +1,25 @@
+.faqButton{
+    background-color: transparent;
+    border: none;
+    font-size: 32px;
+    margin: 20px;
+    color: #3C393D;
+}
+
+.faqButton:hover{
+    color: #F8951E;
+    cursor: pointer;
+}
+
+.modalQuestion{
+    font-size: 24px;
+    color: #F8951E;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.modalAnswer{
+    line-height: 1.5;
+    text-indent: 25px;
+    color: #7D8F9D;
+}

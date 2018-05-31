@@ -1,0 +1,21 @@
+.peterBusinessCard{
+    background-image: url("../images/Peter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 15%;
+    width: 500px;
+    height: 300px;
+    border: 5px solid white;
+}
+
+.FAQBtn:hover {
+    cursor: pointer;
+}
+
+.googlePlayImg{
+    background-image: url("../images/buylinks.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 64px;
+    width: 450px;
+}

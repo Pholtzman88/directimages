@@ -1,0 +1,41 @@
+.card-container {
+    perspective: 700;
+}
+
+.card {
+    transition: all 1s ease;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    border: 2px solid white;
+    background-color: #3C393D;
+    height: 360px;
+}
+
+.card-front {
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    position: absolute;
+}
+.card-back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.button {
+    position: absolute;
+    top: 350px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button > h3 {
+    color: white;
+}
+
+.button:hover > h3 {
+    color: orange;
+}

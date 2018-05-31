@@ -1,0 +1,26 @@
+
+
+.text{
+    margin-top: 10px;
+    color: #fff;
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+}
+
+.aboutLink:hover{
+    cursor: pointer;
+}
+
+.container{
+    position: fixed;
+    margin: 5px 15px;
+}
+
+#introLink {
+    margin-top: 18px;
+}
+
+#partnersLink{
+margin-top: 18px;
+}

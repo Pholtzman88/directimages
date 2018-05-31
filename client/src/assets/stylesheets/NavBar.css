@@ -1,0 +1,117 @@
+.navBar {
+    width: 100%;
+    height: 100px;
+    background: #3c393d;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    z-index: 2000;
+}
+
+button:focus {
+    outline: none
+}
+
+.navBtn-container {
+    flex: 1;
+    margin-left: 30%;
+}
+
+.linkBtn{
+    opacity: 0;
+    position: relative;
+    background: transparent;
+    color: #7D8F9D;
+    text-align: center;
+    border: none;
+    padding: 20px 30px;
+    margin-top: 20px;
+    animation: fade-in_top 1s ease-in forwards;
+}
+
+.linkBtn:hover{
+    cursor: pointer;
+}
+
+.linkTitle {
+    font-size: 18px;
+}
+
+#btn-1{
+    animation-delay: .5s;
+}
+
+#btn-1:hover{
+    border-bottom: 2px solid #F8951E;
+    color: #F8951E;
+
+}
+
+#btn-2{
+    animation-delay: 1s;
+}
+
+#btn-2:hover{
+    border-bottom: 2px solid #F8951E;
+    color: #F8951E;
+
+}
+
+#btn-3{
+    animation-delay: 1.5s;
+}
+
+#btn-3:hover{
+    border-bottom: 2px solid #F8951E;
+    color: #F8951E;
+}
+
+#btn-4{
+    animation-delay: 2s;
+}
+#btn-4:hover{
+    border-bottom: 2px solid #F8951E;
+    color: #F8951E;
+
+}
+
+#btn-5{
+    animation-delay: 2.5s;
+    border: 2px solid #F8951E;
+    border-radius: 15px;
+    color: #F8951E
+}
+#btn-5:hover{
+    background: linear-gradient(to bottom, #F8951E, #F8951E);
+    border-color: white;
+    color: #fff;
+}
+
+@keyframes underline-link {
+    from {
+        transform: translateX(0px)
+    }
+    to {
+        transform: translateX(300px)
+    }
+}
+
+@keyframes fade-in_top{
+    from{
+        transform: translateY(-60px);
+        opacity: 0;
+    }to{
+         transform: translateY(0);
+         opacity: 1;
+     }
+}
+
+.logo{
+    background-image: url("../../assets/images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 60px;
+    margin: 15px;
+}

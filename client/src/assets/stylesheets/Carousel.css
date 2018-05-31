@@ -1,0 +1,22 @@
+.carousel-container {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.carousel-viewport {
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+
+.carousel-nav {
+    flex-basis: 200px;
+    background: #3C393D;
+    border: none;
+    outline: none;
+}
+
+.carousel-container::-webkit-scrollbar-track{
+    display: none;
+}
